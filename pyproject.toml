@@ -1,0 +1,20 @@
+[project]
+name = "clon"
+version = "0.0.1"
+description = "Clon Locates Obvious Nonsense"
+authors = [
+    {name = "Radosław Ganczarek",email = "radoslaw@ganczarek.in"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+]
+
+
+[project.urls]
+"Paper" = "http://clonedigger.sourceforge.net/duplicate_code_detection_bulychev_minea.pdf"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
